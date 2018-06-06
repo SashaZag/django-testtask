@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<a href="add">Add new note</a>
+{%for note in all_notes%}
+<p>Text: {{ note.text }} ||<br /> Uniq word number: {{ note.uniq_word_number }}</p>
+{% endfor %}
+</body>
+</html>

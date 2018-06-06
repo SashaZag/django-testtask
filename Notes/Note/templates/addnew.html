@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form name="form" method="post" action="/Note/add">
+	{%csrf_token%}
+	<input type="text">
+	<textarea name="text"></textarea>
+	<input type="submit" value="Add">
+</form>
+</body>
+</html>
